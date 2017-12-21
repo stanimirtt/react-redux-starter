@@ -6,6 +6,7 @@ const PATHS = {
 
 const webpackConfig = {
   entry: ['./src/index.jsx'],
+  devtool: 'source-map',
   output: {
     path: __dirname,
     publicPath: '/',
